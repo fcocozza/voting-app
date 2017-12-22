@@ -62,6 +62,5 @@ steps:
     type: launch-composition
     composition: voting-app-fcocozza
     environment_name: 'voting-app-fcocozza-composition-env'
-    composition_variables: 
-      - VOTING_OPTION_A: Hola
+    composition_variables: '[ "VOTING_OPTION_A=hola", "VOTING_OPTION_B=adios"]'
  
