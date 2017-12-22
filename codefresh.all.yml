@@ -56,3 +56,9 @@ steps:
     candidate: '${{build_image_worker}}'
     tag: '${{CF_BRANCH}}'
     registry: dockerhub
+
+  launch_composition:
+    title: Launch Composition
+    type: launch-composition
+    composition: voting-app-fcocozza
+    environment_name: 'voting-app-fcocozza-composition-env'
