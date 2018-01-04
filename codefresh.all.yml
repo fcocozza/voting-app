@@ -48,6 +48,13 @@ steps:
     candidate: '${{build_image_result}}'
     tag: '${{CF_BRANCH}}'
     registry: dockerhub
+  
+  push_to_registry_result2:
+    title: Pushing to Result Docker Registry
+    type: push
+    candidate: '${{build_image_result}}'
+    tag: 'latest'
+    registry: dockerhub
 
 
   push_to_registry_worker:
