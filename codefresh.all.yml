@@ -47,7 +47,6 @@ steps:
     type: push
     candidate: '${{build_image_result}}'
     tag: '${{CF_BRANCH}}'
-    tag: 'latest'
     registry: dockerhub
 
 
